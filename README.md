@@ -51,6 +51,7 @@ This project showcases a Streamlit application that uses AI to convert natural l
 
 3. **View Results**  
    - The app will display the generated SQL query and fetch the results from the database.
+   ![alt text]()
 
 ## Troubleshooting
 - **Issue**: Missing Dependencies  
