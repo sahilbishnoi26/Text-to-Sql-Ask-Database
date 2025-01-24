@@ -19,8 +19,8 @@ This project showcases a Streamlit application that uses AI to convert natural l
 
 ## Installation
 1. **Clone the Repository**  
-   - `git clone https://github.com/your-username/Text-to-Sql-Ask-Database.git`  
-   - `cd Text-to-SQL-Query-Generator`
+   - `git clone https://github.com/your-username/Text-to-Sql-Ask-Your-Database.git`  
+   - `cd Text-to-Sql-Ask-Your-Database`
 
 2. **Create and Activate a Virtual Environment**  
    - On Windows:  
