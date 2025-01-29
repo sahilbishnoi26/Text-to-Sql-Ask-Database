@@ -34,7 +34,7 @@ def get_sql_query(user_query):
                     """)
     
     # Define the model to use
-    model = "llama3-8b-8192"
+    model = "llama-3.3-70b-versatile" # "deepseek-r1-distill-llama-70b" 
     llm = ChatGroq(
         groq_api_key=os.environ.get("GROQ_API_KEY"),
         model_name=model
