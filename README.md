@@ -11,8 +11,8 @@ This project showcases a Streamlit application that uses AI to convert natural l
 - **Detailed Results**: Displays query results clearly and concisely.
 
 ## Technologies Used
+- **llama-3.3-70b-versatile**: LLM via Groq API for SQL query generation.
 - **LangChain**: For chaining LLMs and prompt templates.
-- **ChatGroq**: LLM for SQL query generation.
 - **Streamlit**: Framework for building the interactive web app.
 - **SQLite**: Lightweight database for data storage and retrieval.
 - **Python**: Core programming language.
@@ -60,7 +60,3 @@ This project showcases a Streamlit application that uses AI to convert natural l
   - **Solution**: Verify your `GROQ_API_KEY` in the `.env` file.
 - **Issue**: Database Error  
   - **Solution**: Confirm `student.db` exists and is populated with data. If not then use `student.py` to create a test database
-- **Issue**: Streamlit Not Found  
-  - **Solution**: Ensure the virtual environment is activated before running the app.
-
-Use this application to interact with your database effortlessly using natural language queries!
